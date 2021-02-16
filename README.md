@@ -1,5 +1,10 @@
 # LFS 301 - Notes for 16.02. - 20.02.2021
 
+## Agenda 
+
+  1. [Exercises](exercises.md)
+
+
 ## Userdata in cloud-init for digitalocean 
 
 ```
