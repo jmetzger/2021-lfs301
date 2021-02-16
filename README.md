@@ -4,6 +4,10 @@
 
   1. [Exercises](exercises.md)
   2. [Example-exam](example-exam.md)
+  
+## Supported platforms for exam 
+
+  * https://docs.linuxfoundation.org/tc-docs/certification/lf-candidate-handbook/exam-preparation-checklist
 
 ## Userdata in cloud-init for digitalocean 
 
