@@ -3,7 +3,7 @@
 ## Agenda 
 
   1. [Exercises](exercises.md)
-
+  2. [Example-exam](example-exam.md)
 
 ## Userdata in cloud-init for digitalocean 
 
