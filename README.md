@@ -51,3 +51,9 @@ find /root -inum 3318 -exec script.sh {} \;
 ```
 find /proc ! -path '*/[0-9]*/*' -iname 'sched*' 
 ```
+
+## remount option on error 
+
+```
+/dev/sda1  /mnt/platte  ext4    errors=remount-ro  0 0 
+```
