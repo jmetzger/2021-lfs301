@@ -45,3 +45,9 @@ echo "datei gefunden"$1
 ```
 find /root -inum 3318 -exec script.sh {} \;
 ```
+
+## find with regeex 
+
+```
+find /proc ! -path '*/[0-9]*/*' -iname 'sched*' 
+```
