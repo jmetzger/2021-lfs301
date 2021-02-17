@@ -32,3 +32,15 @@ runcmd:
 ```
 cat /sys/block/vda/queue/scheduler
 ```
+
+## find with own script.sh 
+
+```
+# /usr/loca/bin/script.sh -> do chmod u+x /usr/local/bin/script.sh
+#!/bin/bash 
+
+echo "datei gefunden"$1
+
+```
+find /root -inum 3318 -exec script.sh {} \;
+```
