@@ -26,3 +26,9 @@ runcmd:
   - echo "11trainingdo ALL=(ALL) ALL" > /etc/sudoers.d/11trainingdo
   - chmod 0440 /etc/sudoers.d/11trainingdo
 ```
+
+## Use scheduler 
+
+```
+cat /sys/block/vda/queue/scheduler
+```
