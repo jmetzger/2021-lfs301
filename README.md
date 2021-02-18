@@ -67,3 +67,21 @@ grep -e vmx -e svm /proc/cpuinfo
 ## docker-compose 
 
   * docker orchestrieren (mehrere Container) 
+
+## ssh - key 
+
+```
+# 1. create key 
+client1# ssh-keygen (please with password !!) 
+# 2. public -> to -> server 2 
+client1# ssh-copy-id 
+# if wanted use ssh-agent
+client1# eval $(ssh-agent)
+# adds private-key in default location ~/.ssh/id_rsa 
+# and you are forced to enter password once
+# then you can connect without private-key-password
+# as long as session
+client1# ssh-add 
+#
+ssh 11trainingdo@server2
+```
