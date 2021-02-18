@@ -85,3 +85,8 @@ client1# ssh-add
 #
 ssh 11trainingdo@server2
 ```
+
+## Samba (smb) und AD-Server 
+
+  * http://www.monoplan.de/samba-als-ads.html
+ 
