@@ -63,3 +63,7 @@ find /proc ! -path '*/[0-9]*/*' -iname 'sched*'
 ```
 grep -e vmx -e svm /proc/cpuinfo
 ```
+
+## docker-compose 
+
+  * docker orchestrieren (mehrere Container) 
