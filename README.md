@@ -57,3 +57,9 @@ find /proc ! -path '*/[0-9]*/*' -iname 'sched*'
 ```
 /dev/sda1  /mnt/platte  ext4    errors=remount-ro  0 0 
 ```
+
+## KVM - check if Hardware of host supports that 
+
+```
+grep -e vmx -e svm /proc/cpuinfo
+```
