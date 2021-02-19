@@ -100,5 +100,8 @@ ssh 11trainingdo@server2
     * https://gparted.org/faq.php
     * https://en.wikipedia.org/wiki/GParted
   
-    
- 
+## Benchmarking with bonnie++ 
+
+```
+bonnie++ | tail -n 1 | bon_csv2html > $(date +"%Y.%m.%d.%S.%N")_bonnie.html
+``` 
