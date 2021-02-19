@@ -142,3 +142,8 @@ update-grub
 ## Intrusion Detection 
 
   * https://wazuh.com/
+
+
+## Snort 
+
+  * http://schulung.t3isp.de/documents/linux-security.pdf
