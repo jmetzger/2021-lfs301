@@ -138,3 +138,7 @@ CLASS="--class gnu-linux ..... --unrestricted"
 update-grub 
 
 ```
+
+## Intrusion Detection 
+
+  * https://wazuh.com/
