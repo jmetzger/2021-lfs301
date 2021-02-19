@@ -105,3 +105,7 @@ ssh 11trainingdo@server2
 ```
 bonnie++ | tail -n 1 | bon_csv2html > $(date +"%Y.%m.%d.%S.%N")_bonnie.html
 ``` 
+
+## Ansible 
+
+  * https://github.com/jmetzger/ansible-galera-cluster-maxscale
