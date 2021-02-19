@@ -89,4 +89,16 @@ ssh 11trainingdo@server2
 ## Samba (smb) und AD-Server 
 
   * http://www.monoplan.de/samba-als-ads.html
+
+## Parted and gparted 
+
+  * gparted is a gnome frontend for parted.
+  * it is not developed by the same developer
+  * Developer of parted is Andrew Claussen and .... 
+    * Ref: https://en.wikipedia.org/wiki/GNU_Parted
+  * gparted used parted under the surface, see also faq's (more specific libparted)
+    * https://gparted.org/faq.php
+    * https://en.wikipedia.org/wiki/GParted
+  
+    
  
